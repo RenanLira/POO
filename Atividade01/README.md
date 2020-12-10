@@ -27,3 +27,25 @@ public class Aplicacao {
 
 ## Resposta:
 Sera gerado um erro na compilação pois a variavel ```contador``` não foi inicializada
+
+* # 3 Questão:
+
+## Pergunta:
+Explique detalhadamente o resultado após a execução abaixo do código:
+```
+public class Exemplo {
+    public static void main(String[] args) {
+        int a = 9;
+        int b = 0;
+        if ((a > 11) && (++b <= 100)){
+            System.out.println(a*b);
+        } else {
+            System.out.println(a-b);
+        }
+    }
+}
+```
+
+## Resposta:
+A condição do ```if``` não sera aceita porque a variavel ```a``` não é maior que 11, logo a segunda parte da condição não sera checada pois a primeira já foi quebrada já que esta tratando de um ```&&```(e).  
+Com isso o valor não sera incrementado em ```b``` e o valor a ser imprimido sera 0
