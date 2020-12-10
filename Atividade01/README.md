@@ -17,8 +17,8 @@ No segundo comando "javac Avaliacao.java" deveria ser mudado para "java Avaliaca
 
 Qual o resultado da compilação do código abaixo e justifique sua resposta:  
 public class Aplicacao {  
-  public static void main {  
-    int contador;  
-    System.out.println(contador++);  
-  }  
+    public static void main {  
+        int contador;  
+        System.out.println(contador++);  
+    }  
 }  
