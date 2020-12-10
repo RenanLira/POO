@@ -24,3 +24,6 @@ public class Aplicacao {
     }  
 }  
 ```
+
+## Resposta:
+Sera gerado um erro na compilação pois a variavel ```contador``` não foi inicializada
