@@ -53,7 +53,6 @@ Com isso o valor de ```b``` não sera incrementado, logo o valor a ser imprimido
 * # 4 Questão:
 
 ## Pergunta:
-
 Explique detalhadamente qual a saída da execução do trecho de código abaixo e justifique:  
 ```
 int op = 1;
@@ -64,3 +63,5 @@ switch (op) {
 }
 ```
 
+## Resposta:
+Será imprimido a variavel ```op``` 3 vezes no console pois o comando ```break;``` não foi adicionado
