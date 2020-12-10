@@ -64,4 +64,31 @@ switch (op) {
 ```
 
 ## Resposta:
-Será imprimido a variavel ```op``` 3 vezes no console pois o comando ```break;``` não foi adicionado
+Será imprimido a variavel ```op``` 3 vezes no console, pois o comando ```break;``` não foi adicionado
+
+* # 5 Questão:
+
+## Pergunta:
+Corrija a classe abaixo para que a mesma exiba corretamente a soma de a e b.
+```
+public class Exemplo {
+    public static void main(String args[]) {
+    int a = 10;
+    int b = 1;
+    System.out.println("Soma: " + a + b);
+    }
+}
+```
+
+## Resposta:
+Adicionando uma variavel ```soma``` e fazendo o calculo aritmético na mesma
+```
+public class Exemplo {
+    public static void main(String args[]) {
+    int a = 10;
+    int b = 1;
+    int soma = a + b; 
+    System.out.println("Soma: " + soma);
+    }
+}
+```
