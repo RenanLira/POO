@@ -48,4 +48,4 @@ public class Exemplo {
 
 ## Resposta:
 A condição do ```if``` não sera aceita porque a variavel ```a``` não é maior que 11, logo a segunda parte da condição não sera checada pois a primeira já foi quebrada já que esta tratando de um ```&&```(e).  
-Com isso o valor de ```b``` não sera incrementado, logo o valor a ser imprimido sera 0
+Com isso o valor de ```b``` não sera incrementado, logo o valor a ser imprimido sera 9
