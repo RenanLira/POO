@@ -23,4 +23,4 @@ Qual o resultado da compilação do código abaixo e justifique sua resposta:
             System.out.println(contador++);  
         }  
     }  
-´´´
+```
