@@ -78,3 +78,27 @@ void x(double valor) {
   this.valor = this.valor + valor;
 }
 ```
+
+* # 5 Questão:
+
+## Pergunta:
+
+Considere as classes Radio e TestaRadio abaixo:
+```
+public class Radio {
+  int volume;
+  Radio(int volume) {
+    this.volume = volume;
+  }
+}
+```
+
+```
+public class TestaRadio {
+  public static void main(String[] args) {
+    Radio r = new Radio();
+    r.volume = 10;
+  }
+}
+```
+
