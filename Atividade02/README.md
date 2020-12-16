@@ -59,3 +59,22 @@ public class Teste {
 
 o programa ira printar o valor do atributo ```a``` da classe ```teste``` que no caso será iniciada com 0.
 
+* # 4 Questão:
+
+## Pergunta:
+
+Dado o seguinte trecho de código de acumulação de um atributo valor, explique a problemática envolvida e reescreva o método com uma solução:
+```
+void x(double valor) {
+  valor = valor + valor;
+}
+```
+
+## Resposta:
+
+a variavel ```valor``` é uma variavel local e não o atributo da classe, logo ```valor``` terá o valor reniciado todo vez que chamar o metodo ```x```
+```
+void x(double valor) {
+  this.valor = this.valor + valor;
+}
+```
