@@ -105,8 +105,7 @@ Justifique o erro de compilação na classe TestaRadio e proponha uma solução.
 
 ## Resposta:
 
-Como o construtor foi definido na classe ```Radio``` com um parâmetro, na linha ```Radio r = new Radio();``` deverá receber um valor para esse paremetro, logo a linha  
-```r.volume = 10;``` deverá ser apagada
+Como o construtor foi definido na classe ```Radio``` com um parâmetro, na linha ```Radio r = new Radio();``` deverá receber um valor para esse paremetro, logo a linha  ```r.volume = 10;``` deverá ser apagada
 
 
 
