@@ -138,7 +138,7 @@ public static void main(String[] args) {
 ## Resposta:
 
 ### a.
-Os dois prints terá 90 como resultado pois c1 e c2 representam a mesma conta.
+Os dois prints terá 90 como resultado pois c1 e c2 apontam para a mesma conta.
 
 ### b.
 O objeto ficara perdido na memoria até o garbage collection retira-lo de lá.
