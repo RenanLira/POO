@@ -114,10 +114,34 @@ public class TestaRadio {
 }
 ```
 
+* # 6 Questão:
 
+## Pergunta:
 
+Considerando o uso da classe Conta abaixo em uma classe com o método main():
+```
+public static void main(String[] args) {
+  Conta c1 = new Conta("1",100);
+  Conta c2 = new Conta("2",100);
+  
+  c1 = c2;
+  c1.sacar(10);
+  c1.tranferir(c2, 50);
+  
+  System.out.println(c1.saldo);
+  System.out.println(c2.saldo);
+}
+```
+### a. Qual o resultado dos dois "prints"? Justifique sua resposta.
+### b. O que acontece com o objeto para o qual a referência c1 aponta?
 
+## Resposta:
 
+### a.
+Os dois prints terá 90 como resultado pois c1 e c2 representam a mesma conta.
+
+### b.
+O objeto ficara perdido na memoria até o garbage collection retira-lo de lá.
 
 
 
