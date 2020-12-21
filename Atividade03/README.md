@@ -35,7 +35,7 @@ Apresenta um erro de execução. Pois ele tentara acessar um atributo de um obje
 ```
 ...
 Conta[] contas = new Conta[5];
-Conta c1 = new conta(1, 1000);
+Conta c1 = new Conta(1, 1000);
 Contas[0] = c1;
 contas[0].saldo = 10;
 System.out.println(contas[0].saldo);
