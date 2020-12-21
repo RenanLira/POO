@@ -15,4 +15,4 @@ for (int i = 0; i <= a.length; i++) {
 ```
 
 ## Resposta:
-Vai ser printado do 0 ao 4 e ao final havera um erro de exceção pois ele tentara acessar uma posição da lista que não existe no caso o index 5
+Vai ser printado do 0 ao 4 e ao final havera um erro de execução pois ele tentara acessar uma posição da lista que não existe no caso o index 5
