@@ -46,7 +46,16 @@ que ocorre?
 ## Resposta:
 Ocorrera um erro de compilação onde o java pede para que seja implementado os metodos abstratos da classe herdada.
 
+* # 6 Questão:
 
+## Pergunta:
+
+Não podemos aplicar o operador new em FiguraGeometrica, mas por que então
+podemos dar new em FiguraGeometrica[10], por exemplo?
+
+## Resposta:
+
+Porque dessa forma estamos criando um array que aceita objetos de FiguraGeometrica.
 
 
 
