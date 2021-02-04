@@ -27,6 +27,15 @@ public class ClasseConcreta extends ClasseAbstrata {
 ## Resposta:
 Deve ser implementado o metodo herdado pela classe abstrata, no caso ```imprimaAlgo()```.
 
+```
+public class ClasseConcreta extends ClasseAbstrata {
+  @Override
+  public void imprimaAlgo(){
+    system.out.println("Classe Concreta");
+  }
+}
+```
+
 * # 3 Questão:
 
 ## Pergunta:
